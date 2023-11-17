@@ -1,0 +1,125 @@
+1.Scenario 1: User Registration
+
+Scenario: A new user wants to create an account on Swiggy.
+
+Test Cases:
+.Verify that the user can register with a valid email, phone number, and password.
+.Check if the registration fails with an already registered email or phone number.
+.Ensure the user receives a confirmation message after successful registration.
+
+2.Scenario 2: User Login
+
+Scenario: An existing user wants to log in to their Swiggy account.
+
+Test Cases:
+
+.Verify that the user can log in with the correct email/phone number and password.
+.Check if login fails with an incorrect password or email/phone number.
+.Ensure the "Forgot Password" functionality allows the user to reset their password.
+
+3.Scenario 3: Browsing Restaurants
+
+Scenario: The user wants to explore restaurants available on Swiggy.
+
+Test Cases:
+.Verify that the user can see a list of restaurants based on their location.
+.Check if the search functionality returns relevant results.
+.Ensure the user can filter and sort restaurants based on different criteria.
+
+4.Scenario 4: Placing an Order
+
+Scenario: The user wants to order food from a selected restaurant.
+
+Test Cases:
+.Verify that the user can add items to the cart.
+.Check if the cart updates in real-time.
+.Ensure the user can customize their order (e.g., quantity, special instructions).
+.Verify that the user can proceed to checkout without issues.
+
+5.Scenario 5: Order Payment
+
+Scenario: The user is ready to pay for their order.
+
+Test Cases:
+.Verify that the user can choose from multiple payment options.
+.Check if the billing details and delivery address are correct.
+.Ensure the payment process is secure.
+.Verify that the user receives a payment confirmation.
+
+6.Scenario 6: Order Tracking
+
+Scenario: The user wants to track the status of their order.
+
+Test Cases:
+.Verify that the user receives real-time updates on the order status.
+.Check if the estimated delivery time is accurate.
+.Ensure the user receives notifications for order confirmation, preparation, and delivery.
+
+7.Scenario 7: User Profile Management
+
+Scenario: The user wants to manage their profile information.
+
+Test Cases:
+.Verify that the user can edit their profile details.
+.Check if the saved addresses are accurate and editable.
+.Ensure the user can view and track their order history.
+
+8.Scenario 8: Feedback and Ratings
+
+Scenario: The user wants to provide feedback on a completed order.
+
+Test Cases:
+.Verify that the user can submit feedback and ratings for the restaurant.
+.Check if the average restaurant rating is updated accordingly.
+.Ensure the feedback system influences restaurant ratings.
+
+9.Scenario 9: App Settings
+
+Scenario: The user wants to customize app settings.
+
+Test Cases:
+.Verify that the user can customize notification preferences.
+.Check if the app provides options for language and region settings.
+
+10.Scenario 10: Logout
+
+Scenario: The user wants to log out of their Swiggy account.
+
+Test Cases:
+.Verify that the user can log out securely.
+.Check if the app clears sensitive information after logout.
+
+11.Scenario 11: Error Handling
+
+Scenario: Various scenarios where errors might occur.
+
+Test Cases:
+.Check if appropriate error messages are displayed for login failures, order issues, etc.
+.Verify that the app gracefully handles network-related errors.
+
+12.Scenario 12: Usability and Accessibility
+
+Scenario: Ensuring the app is user-friendly and accessible.
+
+Test Cases:
+.Ensure the app is accessible to users with disabilities.
+.Verify that UI elements are consistent and easy to navigate.
+
+13.Scenario 13: Offline Mode
+
+Scenario: The user wants to use certain features while offline.
+
+Test Cases:
+.Verify that users can access certain features (e.g., viewing past orders) in offline mode.
+.Check if the app provides clear indications when the user is offline.
+
+14.Scenario 14: Security
+
+Scenario: Ensuring user data and transactions are secure.
+
+Test Cases:
+.Verify that user data is stored securely.
+.Check for vulnerabilities related to data transmission.
+.Ensure that payment transactions are encrypted.
+
+These scenarios and associated test cases cover a broad range of functionalities in the Swiggy application. Customize them based on your specific requirements and application updates.
